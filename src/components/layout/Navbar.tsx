@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="w-full h-20 sticky top-0 bg-background z-50">
       <div className="w-full h-full container mx-auto px-4 md:px-6 lg:px-0 flex justify-between items-center">
         <div className="flex justify-between md:justify-start items-center gap-x-20">
-          <h1 className="text-primary font-bold text-4xl">Flyme</h1>
+          <h1 className="text-primary font-bold text-4xl">MeroFly</h1>
           <ul className="hidden md:flex items-center gap-x-10">
             <li>
               <Link href="#">Home</Link>

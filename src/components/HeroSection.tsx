@@ -21,8 +21,10 @@ const HeroSection = () => {
                 Fast & Reliable Delivery
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                <span className="text-primary">#1 Courier Service</span> <br />{" "}
-                In Nepal
+                <span className="text-primary">
+                  #1 Peer to Peer Courier Service{" "}
+                </span>{" "}
+                <br /> In Nepal
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-md">
                 All in one courier service at your fingertips. Fast, secure, and
