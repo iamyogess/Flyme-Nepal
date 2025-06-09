@@ -32,12 +32,12 @@ const FlymeHeroSection = () => {
 
       <div className="relative z-10 w-full h-full max-w-7xl px-4 md:px-0 mx-auto flex flex-col justify-center gap-y-10 items-start">
         <div className="space-y-4">
-          <h1 className="text-white/90 font-bold mt-20 md:mt-0 text-5xl md:text-8xl flex flex-col justify-center leading-tight">
+          <h1 className="text-white/90 font-bold mt-20 md:mt-0 text-5xl md:text-7xl flex flex-col justify-center leading-tight">
             <span>Find</span>
             <span>your parcel</span>
             <span className="text-primary">buddy!</span>
           </h1>
-          <p className="text-white/80 text-sm md:text-xl max-w-2xl">
+          <p className="text-white/80 text-sm md:text-lg max-w-2xl">
             Connect with trusted travelers and send your packages safely across the globe. Fast, secure, and affordable
             delivery solutions.
           </p>
@@ -60,7 +60,7 @@ const FlymeHeroSection = () => {
                       placeholder="Where to send?"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className="pl-10 pr-4 h-12 rounded-lg border-2 focus:border-primary transition-colors"
+                      className="pl-10 pr-4 h-10 rounded-lg border-2 focus:border-primary transition-colors"
                     />
                   </div>
                 </div>
@@ -71,7 +71,7 @@ const FlymeHeroSection = () => {
                     <Package className="h-4 w-4" />
                     Package Type
                   </label>
-                  <select className="w-full h-12 px-3 rounded-lg border-2 focus:border-primary transition-colors bg-white">
+                  <select className="w-full h-10 px-3 rounded-lg border-2 focus:border-primary transition-colors bg-white">
                     <option>Documents</option>
                     <option>Small Package</option>
                     <option>Medium Package</option>
@@ -82,7 +82,7 @@ const FlymeHeroSection = () => {
                 {/* Search Button */}
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-transparent">Search</label>
-                  <Button type="submit" className="w-full h-12 text-lg font-semibold">
+                  <Button type="submit" className="w-full h-10 text-lg font-semibold">
                     Find Buddies
                   </Button>
                 </div>

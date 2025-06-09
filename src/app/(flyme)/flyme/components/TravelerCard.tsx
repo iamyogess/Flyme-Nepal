@@ -87,11 +87,10 @@ const TravelerCard = ({
         {/* Action Buttons */}
         <div className="flex gap-2 pt-2">
           <Link href="/flyme/traveler-profile/hi">
-            <Button variant="outline" className="flex-1">
+            <Button variant="outline" className="w-full">
               View Profile
             </Button>
           </Link>
-          <Button className="flex-1">Send Request</Button>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ export default function FlymeLayout({
   return (
     <>
       <UserNavbar />
-      <main className="min-h-screen bg-gray-100">{children}</main>
+      <main className="min-h-screen">{children}</main>
       <Footer />
     </>
   );

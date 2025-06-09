@@ -26,7 +26,7 @@ const HeroSection = () => {
                 </span>{" "}
                 <br /> In Nepal
               </h1>
-              <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-md">
+              <p className="text-base md:text-xl text-muted-foreground mt-4 max-w-md">
                 All in one courier service at your fingertips. Fast, secure, and
                 reliable delivery across Nepal.
               </p>
