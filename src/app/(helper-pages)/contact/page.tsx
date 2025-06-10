@@ -137,7 +137,7 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.89174002536!2d85.30271367530118!3d27.720628676174854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18e49431ef75%3A0x16d1e9dadf6a2e2a!2sFelt%20%26%20Yarn%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1745083059928!5m2!1sen!2snp"
             height="450"
             loading="lazy"
-            className="w-full mt-10 md:mt-14 lg:mt-20"
+            className="w-full mt-10 md:mt-14"
           ></iframe>
         </WidthWrapper>
       </section>
