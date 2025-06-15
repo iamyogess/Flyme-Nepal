@@ -42,7 +42,7 @@ import { motion } from "framer-motion";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 
-const JoinFlyme = () => {
+const JoinMerofly = () => {
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -490,4 +490,4 @@ const JoinFlyme = () => {
   );
 };
 
-export default JoinFlyme;
+export default JoinMerofly;

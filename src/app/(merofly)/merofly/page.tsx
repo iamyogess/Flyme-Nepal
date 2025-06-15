@@ -1,12 +1,12 @@
 import React from "react";
-import FlymeHeroSection from "./components/FlymeHeroSection";
+import MeroflyHeroSection from "./components/MeroflyHeroSection";
 import SuggestedTravelers from "./components/SuggestedTravelers";
 import PopularDestinations from "./components/PopularDestinations";
 
 const FlymeHome = () => {
   return (
     <div>
-      <FlymeHeroSection />
+      <MeroflyHeroSection />
       <SuggestedTravelers />
       <PopularDestinations />
     </div>

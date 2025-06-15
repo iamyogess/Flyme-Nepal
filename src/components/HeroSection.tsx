@@ -40,7 +40,7 @@ const HeroSection = () => {
             >
               <Button className="group h-11 md:h-13 md:w-52 cursor-pointer">
                 <Banknote className="mr-2 h-5 w-5" />
-                <span>Earn with Flyme</span>
+                <span>Earn with MeroFly</span>
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
               <Button
@@ -48,7 +48,7 @@ const HeroSection = () => {
                 className="group h-11 md:h-13 md:w-52 cursor-pointer"
               >
                 <Banknote className="mr-2 h-5 w-5" />
-                <span>Send with Flyme</span>
+                <span>Send with MeroFly</span>
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
             </motion.div>
@@ -65,7 +65,7 @@ const HeroSection = () => {
               <div className="absolute -z-10 inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full blur-3xl" />
               <Image
                 src="/hero.svg"
-                alt="Flyme Courier Service"
+                alt="MeroFly Courier Service"
                 width={500}
                 height={500}
                 className="drop-shadow-xl"

@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="col-span-1">
             <div className="flex items-center space-x-2">
               <div className="h-6 w-6 bg-gray-900 rounded-sm"></div>
-              <span className="text-xl font-semibold text-gray-900">Flyme</span>
+              <span className="text-xl font-semibold text-gray-900">MeroFly</span>
             </div>
           </div>
 

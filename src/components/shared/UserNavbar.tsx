@@ -23,7 +23,7 @@ const UserNavbar = () => {
   // const [isOpenNotificationModal, setIsOpenNotificationModal] = useState(false);
 
   const pathname = usePathname();
-  const transparentNavRoutes = ["/flyme", "/flyme-traveler"];
+  const transparentNavRoutes = ["/merofly", "/merofly-traveler"];
   const isTransparent = transparentNavRoutes.includes(pathname);
 
   useEffect(() => {
@@ -71,10 +71,10 @@ const UserNavbar = () => {
       >
         <div className="h-full w-full max-w-7xl flex justify-between items-center px-4 md:px-0 mx-auto">
           <Link
-            href="/flyme"
+            href="/merofly"
             className="font-extrabold text-3xl md:text-4xl text-primary hover:text-primary/80 transition-colors"
           >
-            Flyme
+            MeroFly
           </Link>
 
           <div className="flex items-center gap-x-2 md:gap-x-3">

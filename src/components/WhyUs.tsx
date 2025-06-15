@@ -11,7 +11,7 @@ const WhyUs = () => {
             WHY US
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            Why travelers prefer Flyme?
+            Why travelers prefer MeroFly?
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl">
             We&apos;ve helped thousands of travelers experience seamless
@@ -55,7 +55,7 @@ const WhyUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                The Flyme Difference
+                The MeroFly Difference
               </h3>
               <p className="text-gray-700 mb-6">
                 We go beyond just booking flights. Our comprehensive travel
@@ -95,7 +95,7 @@ const WhyUs = () => {
               </div>
 
               <blockquote className="italic text-gray-700 border-l-4 border-gray-300 pl-4 py-2">
-                &quot;Flyme made our family vacation completely stress-free.
+                &quot;MeroFly made our family vacation completely stress-free.
                 Their attention to detail and responsive support team exceeded
                 our expectations.&quot;
               </blockquote>

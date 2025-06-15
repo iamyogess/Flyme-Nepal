@@ -7,7 +7,7 @@ import Image from "next/image"
 import type React from "react"
 import { useState } from "react"
 
-const FlymeHeroSection = () => {
+const MeroflyHeroSection = () => {
   const [searchQuery, setSearchQuery] = useState("")
 
   const handleSearch = (e: React.FormEvent) => {
@@ -111,4 +111,4 @@ const FlymeHeroSection = () => {
   )
 }
 
-export default FlymeHeroSection
+export default MeroflyHeroSection

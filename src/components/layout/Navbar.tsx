@@ -63,7 +63,7 @@ const Navbar = () => {
               href="/"
               className="text-primary font-bold text-3xl md:text-4xl hover:opacity-80 transition-opacity"
             >
-              Merofly
+              MeroFly
             </Link>
             <ul className="hidden lg:flex items-center gap-x-8">
               {navLinks.map((link) => (

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import type React from "react";
 
-const FlymeTravelerHero = () => {
+const MeroflyTravelerHero = () => {
   return (
     <main className="relative h-[110vh]">
       <div className="absolute inset-0 w-full h-full">
@@ -25,4 +25,4 @@ const FlymeTravelerHero = () => {
   );
 };
 
-export default FlymeTravelerHero;
+export default MeroflyTravelerHero;
